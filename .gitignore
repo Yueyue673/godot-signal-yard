@@ -1,0 +1,4 @@
+.godot/
+*.tmp
+*.log
+evidence/*-failed.json

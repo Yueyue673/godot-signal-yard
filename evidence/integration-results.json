@@ -1,0 +1,50 @@
+{
+	"checks": [
+		{
+			"name": "gravity settles courier on the real floor",
+			"passed": true
+		},
+		{
+			"name": "jump leaves the floor",
+			"passed": true
+		},
+		{
+			"name": "jump returns to a stable landing",
+			"passed": true
+		},
+		{
+			"name": "solid perimeter stops sustained horizontal motion",
+			"passed": true
+		},
+		{
+			"name": "exit before both pickups does not complete route",
+			"passed": true
+		},
+		{
+			"name": "unrelated body cannot claim a pickup",
+			"passed": true
+		},
+		{
+			"name": "physical pickup signal updates count and starts timer",
+			"passed": true
+		},
+		{
+			"name": "duplicate overlap cannot double-count a pickup",
+			"passed": true
+		},
+		{
+			"name": "both physical pickups plus exit complete and stop timer",
+			"passed": true
+		},
+		{
+			"name": "real Timer timeout prevents late completion",
+			"passed": true
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"failed": 0,
+	"passed": 10,
+	"platform": "Windows",
+	"run_at_utc": "2026-10-18T20:22:50",
+	"scope": "Engine integration with real physics and timers; synthetic input. No client or browser testing claimed."
+}
